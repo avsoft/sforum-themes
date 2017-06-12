@@ -1,0 +1,38 @@
+body {
+  background-color: #000000;
+  font-family: monospace;
+  font-size: 11px;
+  color: green;
+}
+a {
+  color: green;
+  font-weight: bold;
+}
+input[type=text], textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: green;
+  background-color: black;
+  font-family: monospace;
+  font-size: 11px;
+}
+textarea {
+  width: 95%;
+}
+button[type=submit] {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: green;
+  border: 0;
+  font-family: monospace;
+  font-size: 11px;
+  text-decoration: underline;
+}
+button[type=submit]:hover {
+  cursor: pointer;
+}
+button[type=submit]:focus {
+  outline: none;
+}

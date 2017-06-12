@@ -1,0 +1,1 @@
+$ - <a href='./?v=[@v]' class='topiclink'>[@b]</a><br />

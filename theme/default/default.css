@@ -1,0 +1,68 @@
+body, button, .input-text, .input-textarea {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+.btn-back, .input-text, .input-textarea, .post {
+  margin-bottom: 10px;
+}
+.site-logo, .submit-button {
+  text-align: center;
+}
+.input-text, .input-textarea {
+  width: 100%;
+}
+.links-wrap, .post-form, .topic-wrap {
+  margin: 0 auto;
+  width: 500px;
+}
+.links-wrap, .topic-wrap {
+  margin-bottom: 15px;
+}
+.topiclink, .input-heading {
+  font-weight: bold;
+}
+.topiclink {
+  display: block;
+  color: #000000;
+}
+.btn {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  color: #000000;
+  display: inline-block;
+  padding: 0 10px 0 0;
+  text-decoration: none;
+}
+.btn::before {
+  border-right: 1px solid #000000;
+  display: inline-block;
+  font-family: FontAwesome;
+  padding: 5px 5px 5px 10px;
+  margin-right: 5px;
+}
+.btn-message::before {
+  content: "\f1d8";
+}
+.btn-back::before {
+  content: "\f053";
+}
+.input-textarea {
+  height: 50px;
+}
+.input-heading {
+  padding: 0 0 3px 5px;
+}
+.post_meta {
+  color: rgba(0,0,0,0.5);
+}
+.post_meta::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+.post_id {
+  float: left;
+}
+.post_time {
+  float: right;
+}
